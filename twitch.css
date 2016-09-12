@@ -1,0 +1,54 @@
+body {
+	background-color: rgb(51, 51, 51);
+}
+
+h1 {
+	color: white;
+}
+
+h4 {
+	color: rgb(204, 204, 204);
+}
+
+th, td {
+	border-bottom: 1px solid rgb(102, 102, 102);
+	padding: 3px;
+	color: white;
+	text-align: left;
+}
+
+.border {
+	border:3px solid rgb(102, 102, 102);
+    border-radius: 1000px;
+}
+
+.hover:hover {
+	background: rgb(75, 75, 75);
+	cursor: pointer;
+}
+
+.cells {
+  fill: rgb(102, 102, 102);
+}
+
+.label {
+  text-anchor: start;
+  font: 24px sans-serif;
+}
+
+.small {
+	font-size: 12px;
+	color: rgb(204, 204, 204);
+	padding: 5px;
+}
+
+.white {
+	color: white;
+	font-size: 11px;
+}
+
+.tableheader {
+	color: white;
+	text-align: right;
+	padding: 10px;
+}
