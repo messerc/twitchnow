@@ -169,11 +169,12 @@ $("body").on("click", ".hover", function() {
 	    	.data(dataset, channel)
 	    	.enter()
 	    	.append("text")
-			.attr("x", (d) => 75)
+			.attr("x", (d) => 105)
 			.attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 			.text(d => d.channel.name)
 			.attr("class", "name")
 			.attr("fill", "rgb(51, 51, 51)")
+			.attr("text-anchor", "end")
 
 		//Creating text for viewer numbers 
 		svg.selectAll("text.viewers")
@@ -185,6 +186,7 @@ $("body").on("click", ".hover", function() {
 		   .text(d => d.viewers)
 		   .attr("class", "viewers")
 		   .attr("fill", "rgb(51, 51, 51)") 
+
 
 		//Enter transition for the bars and text
 		svg.selectAll("rect")
