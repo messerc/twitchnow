@@ -169,7 +169,7 @@ $("body").on("click", ".hover", function() {
 	    	.data(dataset, channel)
 	    	.enter()
 	    	.append("text")
-			.attr("x", (d) => 105)
+			.attr("x", (d) => 75)
 			.attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 			.text(d => d.channel.name)
 			.attr("class", "name")
