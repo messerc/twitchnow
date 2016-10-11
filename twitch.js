@@ -181,7 +181,7 @@ $("body").on("click", ".hover", function() {
 		   .data(dataset, channel)
 		   .enter()
 		   .append("text")
-		   .attr("x", d => xScale(d.viewers) + padding)
+		   .attr("x", d => xScale(d.viewers) + padding + 4)
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 		   .text(d => d.viewers)
 		   .attr("class", "viewers")
