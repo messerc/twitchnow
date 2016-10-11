@@ -181,7 +181,7 @@ $("body").on("click", ".hover", function() {
 		   .data(dataset, channel)
 		   .enter()
 		   .append("text")
-		   .attr("x", d => xScale(d.viewers) + padding - 2)
+		   .attr("x", d => xScale(d.viewers) + padding)
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 		   .text(d => d.viewers)
 		   .attr("class", "viewers")
@@ -216,13 +216,13 @@ $("body").on("click", ".hover", function() {
 		svg.selectAll("text.viewers")
 		   .data(dataset, channel)
 		   .transition()
-		   .duration(500)
+		   .duration(250)
 		   .delay((d, i) => i * 50)
 		   .ease("linear")
 		   .attr("x", d => xScale(d.viewers) + padding + 5)
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 		   .text(d => d.viewers)
-		   .attr("fill", "rgb(104, 104, 104)")
+		   .attr("fill", "rgb(151, 151, 151)")
 
 		}
 	});
