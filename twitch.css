@@ -150,3 +150,18 @@ th, td {
 #channeltitle {
 	color: rgb(140, 140, 140);
 }
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   border-top: 1px; 
+   border-color: rgb(75, 75, 75);
+}
+
+#footertext {
+	font-size: 10px;
+	color: rgb(102, 102, 102);
+}
