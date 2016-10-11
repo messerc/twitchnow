@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>twitch.now</title>
-	<script src="jquery-2.2.3.min.js"></script>
+	<title>twitchnow</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
     <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="Twitch.css" class="stylesheet">
-	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="metricsgraphics.min.js"></script>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="col-md-3">
-			<h1>twitch.now</h1>
-			<h4 class="viewers"></h4>
-			<h4 class="channels"></h4>
-		</div>
-		<div class="col-md-9">
-			<div class="container">
-			<svg class="hover" width="750" height="150"></svg>
-			</div>
-		</div>
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-4">
+			<h1>twitch.now</h1>
+			<h4 class="viewer"></h4>
+			<h4 class="channels"></h4>
+			<br>
 			<div class="table">
 			</div>
 		</div>
 		<div class="col-md-8">
-			<div class="header">
-			</div>
-			<div class="insert">
-			</div>
+			<ul class="list-inline">
+				<li class="header"></li>
+				<li class="gamename"></li>
+			</ul>
+			<div class="chart">
+				<div id="tooltip" class="hidden">
+				<p><strong><span id="value"></span></strong></p>
+				<p><span id="channeltitle"></span></p>
+				</div>
 		</div>
+
 	</div>
-</div>
+	</div>
 <script src="twitch.js"></script>
 </body>
 </html>

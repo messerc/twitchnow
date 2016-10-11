@@ -2,19 +2,67 @@ body {
 	background-color: rgb(51, 51, 51);
 }
 
+.bar {
+    fill: rgb(75, 75, 75);
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+.bar:hover {
+    fill: rgb(104, 104, 104);
+  }
+
+
+.axis {
+	fill: none;
+	stroke: rgb(102, 102, 102);
+	shape-rendering: crispEdges;
+}
+			
+.axis text {
+	font-color: white;
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+.container-fluid {
+	padding-left: 75px;
+}
+
 h1 {
 	color: white;
 }
 
 h4 {
 	color: rgb(204, 204, 204);
+	font-family: sans-serif;
+}
+
+p {
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+}
+
+.img-circle {
+	height: 100px;
+	width: 75px;
+	border-radius: 25%;
+	border: 2px solid rgb(102, 102, 102);
 }
 
 th, td {
-	border-bottom: 1px solid rgb(102, 102, 102);
-	padding: 3px;
+	border-bottom: 1px solid rgb(75, 75, 75);
+	padding-left: 30px;
+	padding-bottom: 3px;
 	color: white;
 	text-align: left;
+}
+
+.gametitle {
+	font-family: sans-serif;
+	font-size: 18px;
 }
 
 .border {
@@ -28,7 +76,7 @@ th, td {
 }
 
 .cells {
-  fill: rgb(102, 102, 102);
+  fill: rgb(80, 80, 80);
 }
 
 .label {
@@ -38,17 +86,67 @@ th, td {
 
 .small {
 	font-size: 12px;
-	color: rgb(204, 204, 204);
-	padding: 5px;
-}
-
-.white {
-	color: white;
-	font-size: 11px;
+	font-family: sans-serif;
+	color: rgb(155, 155, 155);
 }
 
 .tableheader {
 	color: white;
 	text-align: right;
 	padding: 10px;
+}
+
+.list-inline {
+	padding-top: 40px;
+	padding-left: 30px;
+}
+
+.gamename {
+	vertical-align: middle;
+}
+
+.name {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+.viewers {
+	font-family: sans-serif;	
+	font-size: 12px;
+}
+
+.viewerslight {
+	font-family: sans-serif;	
+	font-size: 12px;
+	fill: rgb(151, 151, 151);
+}
+
+#tooltip {
+	position: absolute;
+	width: 325px;
+	height: 95px;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	opacity: 0.75;
+	-webkit-transition: opacity 1s
+    -moz-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+#tooltip.hidden {
+	opacity: 0;
+
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-color: black;
+}
+
+#channeltitle {
+	color: rgb(140, 140, 140);
 }
