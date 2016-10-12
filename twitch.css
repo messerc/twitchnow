@@ -225,6 +225,9 @@ th, td {
     -webkit-animation: fadein 1s; /* Safari and Chrome */
     -o-animation: fadein 1s; /* Opera */
     text-align: right;
+    padding-right: 50px;
+    border-top: 2px;
+    border-top-color: rgb(102, 102, 102);
 }
 
 .footertext {
