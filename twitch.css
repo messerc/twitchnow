@@ -20,10 +20,6 @@ html, body {
     transition: all 0.3s;
   }
 
-.col-md-4 {
-	height: 600px;
-}
-
 .bar:hover {
     fill: rgb(104, 104, 104);
   }
@@ -228,6 +224,7 @@ th, td {
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
     -o-animation: fadein 1s; /* Opera */
+    text-align: right;
 }
 
 .footertext {
