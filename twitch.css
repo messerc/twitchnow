@@ -220,10 +220,10 @@ th, td {
 	height: 150px;
 	clear: both;
 	padding-top: 20px;
-   	animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+   	animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
     text-align: right;
     padding-right: 50px;
     border-top: 2px;
@@ -233,10 +233,10 @@ th, td {
 .footertext {
 	font-size: 12px;
 	color: rgb(102, 102, 102);
-	animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+	animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
 }
 
 @keyframes fadein {
