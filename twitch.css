@@ -226,8 +226,8 @@ th, td {
     -o-animation: fadein 4s; /* Opera */
     text-align: right;
     padding-right: 75px;
-    border-top: 2px solid;
-    border-top-color: rgb(102, 102, 102);
+    border-top: 1px solid;
+    border-top-color: rgb(65, 65, 65);
 }
 
 .footertext {
