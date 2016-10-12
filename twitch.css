@@ -1,19 +1,15 @@
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-
-body {
-	position: relative;
+html, body {
 	background-color: rgb(51, 51, 51);
+	height: 100%;
+}
+
+#wrap {
 	min-height: 100%;
+}
+
+#main {
+	overflow: auto;
+	padding-bottom: 150px;
 }
 
 .bar {
@@ -218,14 +214,12 @@ th, td {
 	color: rgb(140, 140, 140);
 }
 
-.footer .navbar-bottom {
-    position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+.footer {
+    position: relative;
+	margin-top: -150px;
+	height: 150px;
+	clear: both;
+	padding-top: 20px;
    	animation: fadein 1s;
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
