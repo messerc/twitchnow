@@ -1,16 +1,7 @@
-html, body {
+body {
 	background-color: rgb(51, 51, 51);
-	height: 100%;
 }
 
-#wrap {
-	min-height: 100%;
-}
-
-#main {
-	overflow: auto;
-	padding-bottom: 50px;
-}
 
 .bar {
     fill: rgb(75, 75, 75);
@@ -212,10 +203,6 @@ th, td {
 }
 
 .footer {
-    position: relative;
-	margin-top: -50px;
-	height: 50px;
-	clear: both;
 	padding-top: 20px;
    	animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
