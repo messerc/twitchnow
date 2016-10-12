@@ -182,10 +182,10 @@ th, td {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	opacity: 0.75;
-	-webkit-transition: opacity 1s
-    -moz-transition: opacity 1s;
-    transition: opacity 1s;
+	opacity: 1;
+	-webkit-transition: opacity 0.5s
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
 }
 
 #tooltip.hidden {
@@ -206,7 +206,7 @@ th, td {
 
 .footer .navbar-bottom {
    border-top: 1px; 
-   border-color: rgb(75, 75, 75);
+   border-top-color: rgb(75, 75, 75);
    	animation: fadein 1s;
     -moz-animation: fadein 1s; /* Firefox */
     -webkit-animation: fadein 1s; /* Safari and Chrome */
