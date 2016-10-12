@@ -20,6 +20,10 @@ html, body {
     transition: all 0.3s;
   }
 
+.col-md-4 {
+	height: 600px;
+}
+
 .bar:hover {
     fill: rgb(104, 104, 104);
   }
