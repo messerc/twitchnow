@@ -193,9 +193,6 @@ th, td {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	opacity: 1;
-	-webkit-transition: opacity 0.2s
-    -moz-transition: opacity 0.2s;
-    transition: opacity 0.2s;
 }
 
 #tooltip.hidden {
