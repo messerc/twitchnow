@@ -145,15 +145,15 @@ $("body").on("click", ".hover", function() {
 
 
 				d3.select("#tooltip")
-				   .style("left", "450px")
-				   .style("top", "45px")
+				   .style("left", "400px")
+				   .style("top", "65px")
 				   .select("#value")
 				   .html(d.channel.name)
 
 
 				d3.select("#tooltip")
-				   .style("left", "450px")
-				   .style("top", "40px")
+				   .style("left", "400px")
+				   .style("top", "65px")
 				   .select("#channeltitle")
 				   .text(d.channel.status)
 
