@@ -29,7 +29,7 @@ body {
 }
 
 .container-fluid {
-	padding-left: 75px;
+	padding-left: 60px;
 }
 
 h1 {
@@ -72,7 +72,7 @@ p {
 
 th, td {
 	border-bottom: 1px solid rgb(75, 75, 75);
-	padding-left: 30px;
+	padding-left: 10px;
 	padding-bottom: 3px;
 	color: white;
 	text-align: left;
