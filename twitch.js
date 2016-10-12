@@ -185,7 +185,7 @@ $("body").on("click", ".hover", function() {
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
 		   .text(d => d.viewers)
 		   .attr("class", "viewers")
-		   .attr("fill", "rgb(104, 104, 104)") 
+		   .attr("fill", "rgb(51, 51, 51)") 
 
 
 		//Enter transition for the bars and text
