@@ -183,7 +183,7 @@ $("body").on("click", ".hover", function() {
 		   .append("text")
 		   .attr("x", d => xScale(d.viewers) + padding + 4)
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
-		   .text(d => d.viewers)
+		   .text(d => numberWithCommas(d.viewers))
 		   .attr("class", "viewers")
 		   .attr("fill", "rgb(51, 51, 51)") 
 
@@ -221,7 +221,7 @@ $("body").on("click", ".hover", function() {
 		   .ease("linear")
 		   .attr("x", d => xScale(d.viewers) + padding + 5)
 		   .attr("y", (d, i) => (yScale(i) + paddinglight) + (yScale.rangeBand() / 2) + 3)
-		   .text(d => d.viewers)
+		   .text(d => numberWithCommas(d.viewers))
 		   .attr("fill", "rgb(151, 151, 151)")
 
 		}
