@@ -225,8 +225,8 @@ th, td {
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
     text-align: right;
-    padding-right: 50px;
-    border-top: 2px;
+    padding-right: 75px;
+    border-top: 2px solid;
     border-top-color: rgb(102, 102, 102);
 }
 
